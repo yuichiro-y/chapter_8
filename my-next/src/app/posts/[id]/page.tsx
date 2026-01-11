@@ -2,15 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-
-type Post = {
-  id: number;
-  title: string;
-  thumbnailUrl: string;
-  createdAt:string;
-  categories: string[];
-  content: string;
-}
+import { Post } from "@/app/_types/Post"
 
 export default function PostDetail() {
 
